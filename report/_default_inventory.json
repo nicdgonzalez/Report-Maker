@@ -1,0 +1,31 @@
+{
+    "$": [
+        "Milk",
+        "Yogurt",
+        "Cookies",
+        "Ben & Jerry",
+        "Carrots",
+        "Donuts",
+        "Beans",
+        "Eggs",
+        "Rice",
+        "Monster Energy Drink",
+        "Mochi",
+        "Pasta"
+    ],
+    "$$": [
+        "(Vegan) Meat",
+        "Publix Sub",
+        "Frozen Pizza",
+        "Sushi",
+        "Lots of Bananas",
+        "Magazine"
+    ],
+    "$$$": [
+        "Birthday Cake",
+        "Cat Food",
+        "Dog Food",
+        "Lottery Tickets",
+        "Gift Card"
+    ]
+}
