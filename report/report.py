@@ -53,7 +53,6 @@ class Report:
 
     @template.setter
     def template(self, value: List[str]) -> None:
-        """TODO"""
 
         self._template = value
 
@@ -100,7 +99,6 @@ class Report:
 
     @auto_align.setter
     def auto_align(self, value: bool) -> None:
-        """TODO"""
 
         self._auto_align = value
 
@@ -147,7 +145,6 @@ class Report:
         return None
 
     def calculate_total(self, file_name: str) -> str:
-        """TODO"""
 
         total: float = 0.00
 
@@ -229,7 +226,7 @@ class Report:
                 raise Exception(error)
 
         indexes: List[int] = sorted([item_fmt_words.index(word)
-                              for word in words_to_search])
+                                     for word in words_to_search])
 
         return (item_fmt_words[(indexes[0] + 1):indexes[1]])
 
